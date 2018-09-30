@@ -1,0 +1,27 @@
+{
+  "name": "polyloader-html",
+  "version": "0.0.1",
+  "description": "webpack loader for lit-element's html",
+  "main": "lib/loader.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolandhawk/polyloader.git"
+  },
+  "keywords": [
+    "loader",
+    "webpack"
+  ],
+  "author": "Roland Rifandi Utama",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rolandhawk/polyloader/issues"
+  },
+  "homepage": "https://github.com/rolandhawk/polyloader#readme",
+  "dependencies": {
+    "html-minifier": "^3.5.20",
+    "cheerio": "^1.0.0-rc.2"
+  }
+}
